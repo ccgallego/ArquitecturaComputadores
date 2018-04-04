@@ -1,0 +1,4 @@
+AR npc behavioral "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" sub00/vhpl01 1522800977
+AR suma behavioral "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" sub00/vhpl03 1522801163
+EN npc NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" sub00/vhpl00 1522800976
+EN suma NULL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" sub00/vhpl02 1522801162

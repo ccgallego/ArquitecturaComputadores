@@ -1,0 +1,13 @@
+V3 6
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" 2018/04/02.19:53:19 P.20131013
+EN work/nPc 1522800976 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/nPc/Behavioral 1522800977 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" EN work/nPc 1522800976
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" 2018/04/03.19:19:19 P.20131013
+EN work/Suma 1522801162 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Suma/Behavioral 1522801163 \
+      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" EN work/Suma 1522801162
