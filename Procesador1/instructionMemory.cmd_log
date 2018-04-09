@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/instructionMemory.xst" -ofn "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/instructionMemory.syr" 

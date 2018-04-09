@@ -1,13 +1,47 @@
-V3 6
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" 2018/04/02.19:53:19 P.20131013
-EN work/nPc 1522800976 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" \
+V3 20
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Alu.vhd 2018/04/09.18:01:41 P.20131013
+EN work/Alu 1523314906 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Alu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Alu/Behavioral 1523314907 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Alu.vhd \
+      EN work/Alu 1523314906
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/IM.vhd 2018/04/05.19:08:34 P.20131013
+EN work/IM 1523315543 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/IM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/IM/Behavioral 1523315544 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/IM.vhd \
+      EN work/IM 1523315543
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/nPc.vhd 2018/04/05.19:24:43 P.20131013
+EN work/nPc 1523315557 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/nPc.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/nPc/Behavioral 1522800977 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" EN work/nPc 1522800976
-FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" 2018/04/03.19:19:19 P.20131013
-EN work/Suma 1522801162 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" \
+AR work/nPc/Behavioral 1523315558 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/nPc.vhd \
+      EN work/nPc 1523315557
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/pc.vhd 2018/04/05.17:29:44 P.20131013
+EN work/pc 1523315562 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/pc.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/pc/Behavioral 1523315563 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/pc.vhd \
+      EN work/pc 1523315562
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/RF.vhd 2018/04/09.17:35:20 P.20131013
+EN work/RF 1523313323 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/RF.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RF/Behavioral 1523313324 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/RF.vhd \
+      EN work/RF 1523313323
+FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Suma.vhd 2018/04/03.20:43:12 P.20131013
+EN work/Suma 1523312854 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Suma.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/Suma/Behavioral 1522801163 \
-      FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" EN work/Suma 1522801162
+AR work/Suma/Behavioral 1523312855 \
+      FL /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Suma.vhd \
+      EN work/Suma 1523312854
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/nPc.vhd" 2018/04/02.19:53:19 P.20131013
+FL "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" 2018/04/03.19:19:19 P.20131013

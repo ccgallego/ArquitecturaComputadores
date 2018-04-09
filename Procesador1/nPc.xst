@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/xst"
+set -tmpdir "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/xst/projnav.tmp"
+set -xsthdpdir "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/xst"
 elaborate
 -ifn nPc.prj
 -ifmt mixed

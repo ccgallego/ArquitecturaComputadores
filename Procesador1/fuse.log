@@ -1,20 +1,24 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1_isim_beh.exe -prj C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1_beh.prj work.tbSumar1 
-ISim P.20131013 (signature 0x7708f090)
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu_isim_beh.exe -prj /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu_beh.prj work.test_alu 
+ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/Suma.vhd" into library work
-Parsing VHDL file "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Alu.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu.vhd" into library work
 Starting static elaboration
 Completed static elaboration
+Fuse Memory Usage: 97992 KB
+Fuse CPU Usage: 1180 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
-Compiling architecture behavioral of entity Suma [suma_default]
-Compiling architecture behavior of entity tbsumar1
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture behavior of entity test_alu
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 6 VHDL Units
-Built simulation executable C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1_isim_beh.exe
-Fuse Memory Usage: 34788 KB
-Fuse CPU Usage: 873 ms
+Compiled 8 VHDL Units
+Built simulation executable /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu_isim_beh.exe
+Fuse Memory Usage: 673964 KB
+Fuse CPU Usage: 1310 ms
+GCC CPU Usage: 220 ms

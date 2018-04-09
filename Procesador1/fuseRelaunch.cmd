@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1_isim_beh.exe" -prj "C:/Users/Richy/Desktop/Proyectos ISE/Procesador1/tbSumar1_beh.prj" "work.tbSumar1" 
+-intstyle "ise" -incremental -o "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu_isim_beh.exe" -prj "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_alu_beh.prj" "work.test_alu" 
