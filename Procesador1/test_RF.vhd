@@ -94,13 +94,12 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		reset <= '1';
       wait for 100 ns;
 		reset <= '0';
-		rs1 <= "10000";
-		rs2 <= "10001";
+		rs1 <= "00000";
+		rs2 <= "00001";
 		rd <= "10011";
-		drw <= x"00000003";
+		drw <= x"00000002";
 
       --wait for <clock>_period*10;
 

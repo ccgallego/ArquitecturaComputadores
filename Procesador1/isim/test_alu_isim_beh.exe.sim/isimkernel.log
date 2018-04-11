@@ -2,9 +2,9 @@ Command line:
    test_alu_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  60243
+     -socket  52619
 
-Mon Apr  9 18:11:38 2018
+Tue Apr 10 19:15:19 2018
 
 
  Elaboration Time: 0.02 sec
@@ -21,9 +21,9 @@ Mon Apr  9 18:11:38 2018
  Total Scalar Nets and Variables : 603
 Total Line Count : 12
 
- Total Simulation Time: 0.03 sec
+ Total Simulation Time: 0.02 sec
 
  Current Memory Usage: 271.901 Meg
 
-Mon Apr  9 18:11:54 2018
+Tue Apr 10 19:15:28 2018
 

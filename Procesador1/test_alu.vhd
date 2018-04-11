@@ -85,9 +85,9 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		entrada1 <= x"00000003";
+		entrada1 <= x"0000000A";
 		entrada2 <= x"00000001";
-		entrada_uc <= "000100";
+		entrada_uc <= "000010";
       wait for 100 ns;	
       --wait for <clock>_period*10;
 

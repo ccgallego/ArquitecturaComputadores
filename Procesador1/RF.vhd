@@ -37,7 +37,9 @@ entity RF is
            drw : in  STD_LOGIC_VECTOR (31 downto 0);
            salida1 : out  STD_LOGIC_VECTOR (31 downto 0);
            salida2 : out  STD_LOGIC_VECTOR (31 downto 0);
+			  Crd : out  STD_LOGIC_VECTOR (31 downto 0) := (others=>'0');
            reset : in  STD_LOGIC);
+			  
 			  
 end RF;
 
@@ -45,7 +47,39 @@ architecture Behavioral of RF is
 
 type registro is array (0 to 31) of std_logic_vector (31 downto 0);
 
-signal regis : registro :=(others => x"00000000"); -- señal constante de 32 bits
+	signal regis: registro := ( x"00000000",
+												x"0000000A",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"0000000A",
+												x"00000006",
+												x"00000000",
+												x"00000000",
+												x"0000000C",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000000",
+												x"00000003"
+												);
 	
 begin
 
@@ -55,11 +89,11 @@ begin
 			salida1 <= (others=>'0');		-- a la salida1 le asigno 0
 			salida2 <= (others=>'0');		-- a la salida2 le asigno 0
 			
-			regis <= (others => x"00000000");
+			--regis <= (others => x"00000000");
 	else
 			salida1 <= regis(conv_integer(rs1)); -- le asigno a salida1 el rs1 en entero
 			salida2 <= regis(conv_integer(rs2)); -- le asigno a salida2 el rs2 en entero
-			if (rd /= "000000") then 				-- si el rd es diferente a 000000
+			if (rd /= "00000") then 				-- si el rd es diferente a 000000
 					regis(conv_integer(rd)) <= drw;	-- le asignoo a drw el registro destino rd
 			
 			end if;
