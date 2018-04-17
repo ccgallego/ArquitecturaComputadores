@@ -7,15 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/procesador2 - Behavioral |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|procesador2.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>UC - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/UC.vhd)</SelectedItem>
+         <SelectedItem>procesador2 - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/procesador2.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000010b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000010b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000171000000020000000000000000000000000200000064ffffffff000000810000000300000002000001710000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>UC - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/UC.vhd)</CurrentItem>
+      <CurrentItem>procesador2 - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/procesador2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -26,13 +27,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Check Syntax</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Check Syntax</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -41,7 +42,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028a000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007700000001000000000000005d0000000100000000000000840000000100000000000001320000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027b000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007700000001000000000000005d0000000100000000000000840000000100000000000001230000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>nPc.vhd</CurrentItem>
    </ItemView>
@@ -60,22 +61,25 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/procesador2 - Behavioral |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|procesador2.vhd</ClosedNode>
          <ClosedNode>/tbSumar1 - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|tbSumar1.vhd</ClosedNode>
          <ClosedNode>/test_IM - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_IM.vhd</ClosedNode>
+         <ClosedNode>/test_Multiplexor - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_Multiplexor.vhd</ClosedNode>
          <ClosedNode>/test_RF - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_RF.vhd</ClosedNode>
+         <ClosedNode>/test_SEV - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_SEV.vhd</ClosedNode>
          <ClosedNode>/test_UC - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_UC.vhd</ClosedNode>
          <ClosedNode>/test_alu - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_alu.vhd</ClosedNode>
          <ClosedNode>/test_nPC - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test-nPC.vhd</ClosedNode>
          <ClosedNode>/test_pc - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_pc.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s100e-4cp132</SelectedItem>
+         <SelectedItem>test_procesador2 - behavior (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_procesador2.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000132000000020000000000000000000000000200000064ffffffff000000810000000300000002000001320000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ef000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ef0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>xc3s100e-4cp132</CurrentItem>
+      <CurrentItem>test_procesador2 - behavior (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/test_procesador2.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -83,13 +87,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012b0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -105,7 +109,7 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>

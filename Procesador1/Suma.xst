@@ -1,5 +1,0 @@
-set -tmpdir "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/xst/projnav.tmp"
-set -xsthdpdir "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/xst"
-elaborate
--ifn Suma.prj
--ifmt mixed
