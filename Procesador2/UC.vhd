@@ -41,8 +41,7 @@ begin
 process(op,op3)
 	begin
 	case(op) is
-		when "00" =>
-		
+	
 		when "01" =>
 		
 		when "10" =>

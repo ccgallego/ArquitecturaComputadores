@@ -41,7 +41,7 @@ architecture Behavioral of nPc is
 begin
 	process (entrada_nPC, reset, clk)
 	begin
-		if (reset = '0')then
+		if (reset = '1')then
 		salida_nPC <= x"00000000";
 		else
 			if(rising_edge(clk))then

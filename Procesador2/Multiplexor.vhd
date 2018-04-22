@@ -42,9 +42,9 @@ begin
 process(senal_i,rs2_mult,inm_mult)
 	begin
 	if (senal_i = '1') then
-		salida_mult <= rs2_mult;
-	else
 		salida_mult <= inm_mult;
+	else
+		salida_mult <= rs2_mult;
 	end if;
 end process;
       

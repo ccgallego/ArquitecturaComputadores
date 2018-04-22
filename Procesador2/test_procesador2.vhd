@@ -56,7 +56,7 @@ ARCHITECTURE behavior OF test_procesador2 IS
    signal salida_procesador : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 20 ns;
  
 BEGIN
  
