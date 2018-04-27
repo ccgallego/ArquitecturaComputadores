@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/RF.vhi -module RF -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RF.vhd 
