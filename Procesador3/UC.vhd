@@ -41,33 +41,65 @@ begin
 process(op,op3)
 	begin
 	case(op) is
-	
-		when "01" =>
 		
 		when "10" =>
 		
 			case(op3) is		--definiendo los casos de acuerdo a su op3
-				when "000000" => 		--caso add
-					salida1 <= "000000";
-				when "000100" =>		--caso sub
-					salida1 <= "000100";
-				when "000010" =>		--caso or
-					salida1 <= "000010";
-				when "000001" =>		--caso and
-					salida1 <= "000001";
-				when "000011" =>		--caso xor
-					salida1 <= "000011";
-				when "010001" =>--caso addcc
-					salida1 <= "010001";
-				when "011000" =>--caso addxcc
-					salida1 <= "011000";
-				when "010100" =>--caso subcc
-					salida1 <= "010100";
-				when "011100" =>--caso subxcc
-					salida1 <= "011100";
+				
+				--Add instruction
+			when "000000" => --Add
+				salida1 <= "000000";
+			when "010000" => --Addcc
+				salida1 <= "010000";
+			when "001000" => --Addx
+				salida1 <= "001000";
+			when "011000" => --Addxcc
+				salida1 <= "011000";	
+	
+		--Sub instruction			
+			when "000100" => --Sub
+				salida1 <= "000100";
+			when "010100" => --Subcc
+				salida1 <= "010100";
+			when "001100" => --Subx
+				salida1 <= "001100";
+			when "011100" => --Subxcc
+				salida1 <= "011100";
+				
+		--AND
+			when "000001" => --And
+				salida1 <= "000001";				
+			when "010001" => --Andcc
+				salida1 <= "010001";			
+			when "000101" => --AndN
+				salida1 <= "000101";
+			when "010101" => --AndNcc
+				salida1 <= "010101";
+				
+		--OR				
+			when "000010" => --Or
+				salida1 <= "000010";
+			when "010010" => --Orcc
+				salida1 <= "010010";
+			
+			when "000110" => --OrN
+				salida1 <= "000110";
+			when "010110" => --OrNcc
+				salida1 <= "010110";
+				
+		--XOR							
+			when "000011" => --Xor
+				salida1 <= "000011";
+			when "010011" => --Xorcc
+				salida1 <= "010011";
+			when "000111" => --XorN
+				salida1 <= "000111";
+			when "010111" => --XnorNcc
+				salida1 <= "010111";
+				
 				when others =>
 				end case;
-				when others => -- si no es ninguno de los casos mi salida sera cero
+			when others => -- si no es ninguno de los casos mi salida sera cero
 		end case;
 	end process;
 

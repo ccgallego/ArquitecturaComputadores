@@ -49,7 +49,7 @@ begin
 	begin
 	
 			case(entrada_uc) is		--definiendo los casos de acuerdo a su op3
-				when "000000" => 		--caso add
+				when "000000" => --caso add
 					salida_alu <= entrada1 + entrada2;
 				when "010000" => --Addcc
 					salida_alu <= entrada1 + entrada2;

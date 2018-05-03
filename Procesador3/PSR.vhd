@@ -2,21 +2,26 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+entity PSR is
+    Port ( reset : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           NZVC : in  STD_LOGIC_VECTOR (3 downto 0);
+           carry : out  STD_LOGIC);
+end PSR;
 
-entity PSR_Modificar is
-    Port ( Crs1 : in  STD_LOGIC_VECTOR (31 downto 0);
-           salida_mux : in  STD_LOGIC_VECTOR (31 downto 0);
-           salida_unidad : in  STD_LOGIC_VECTOR (5 downto 0);
-           result_alu : in  STD_LOGIC_VECTOR (31 downto 0);
-           salida_PSR : out  STD_LOGIC_VECTOR (3 downto 0));
-end PSR_Modificar;
-
-architecture Behavioral of PSR_Modificar is
+architecture Behavioral of PSR is
 
 begin
 
-
-
-
+	process(reset,clk,NVZC)
+	begin
+		if reset = '1' then
+			carry <= '0';
+		else
+			if rising_edge(clk) then
+				carry <= NZVC(0);
+			end if;
+		end if;
+	end process;
 end Behavioral;
 
