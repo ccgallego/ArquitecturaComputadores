@@ -1,19 +1,3 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
--- Create Date:   23:09:26 04/26/2018
--- Design Name:   
--- Module Name:   /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/test_PSR_Modificar.vhd
--- Project Name:  Procesador1
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
--- VHDL Test Bench Created by ISE for module: PSR_Modificar
--- 
--- Dependencies:
--- 
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

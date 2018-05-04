@@ -102,14 +102,35 @@ COMPONENT Alu
 	PORT(
 		entrada1 : IN std_logic_vector(31 downto 0);
 		entrada2 : IN std_logic_vector(31 downto 0);
-		entrada_uc : IN std_logic_vector(5 downto 0);          
+		entrada_uc : IN std_logic_vector(5 downto 0);
+		carry : IN std_logic;          
 		salida_alu : OUT std_logic_vector(31 downto 0)
 		);
 	END COMPONENT;
 
+COMPONENT PSR
+	PORT(
+		reset : IN std_logic;
+		clk : IN std_logic;
+		NZVC : IN std_logic_vector(3 downto 0);          
+		carry : OUT std_logic
+		);
+	END COMPONENT;
+	
+COMPONENT PSR_Modificar
+	PORT(
+		Crs1 : IN std_logic_vector(31 downto 0);
+		sal_Mux : IN std_logic_vector(31 downto 0);
+		alu_op : IN std_logic_vector(5 downto 0);
+		sal_alu : IN std_logic_vector(31 downto 0);          
+		NZVC : OUT std_logic_vector(3 downto 0)
+		);
+	END COMPONENT;
+	
 signal sumadorTonpc, pcToIM, npcToPc, imToURS,aluResult, rfToAlu, rfToMUX, seuToMUX, muxToAlu: STD_LOGIC_VECTOR (31 downto 0);
 signal ucToAlu: STD_LOGIC_VECTOR (5 downto 0);
-
+signal PSR_NZVC: STD_LOGIC_VECTOR (3 downto 0);
+signal psrToAlu: STD_LOGIC;
 
 begin
 Inst_Suma: Suma PORT MAP(
@@ -170,8 +191,26 @@ Inst_Alu: Alu PORT MAP(
 		entrada1 => rfToAlu,
 		entrada2 => muxToAlu,
 		entrada_uc =>ucToAlu ,
-		salida_alu => aluResult
+		salida_alu => aluResult,
+		carry => psrToAlu
 	);
+	
+Inst_PSR: PSR PORT MAP(
+		reset => reset ,
+		clk => clk ,
+		carry => psrToAlu,
+		NZVC => PSR_NZVC
+	);
+	
+Inst_PSR_Modificar: PSR_Modificar PORT MAP(
+		Crs1 => rfToAlu,
+		sal_Mux => muxToAlu ,
+		alu_op => ucToAlu,
+		sal_alu => aluResult ,
+		NZVC => PSR_NZVC
+	);
+	
+
 	
 	salida_procesador <= aluResult;
 

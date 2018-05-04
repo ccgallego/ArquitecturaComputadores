@@ -13,7 +13,7 @@ architecture Behavioral of PSR is
 
 begin
 
-	process(reset,clk,NVZC)
+	process(reset,clk,NZVC)
 	begin
 		if reset = '1' then
 			carry <= '0';

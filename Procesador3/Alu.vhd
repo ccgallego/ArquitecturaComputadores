@@ -54,9 +54,9 @@ begin
 				when "010000" => --Addcc
 					salida_alu <= entrada1 + entrada2;
 				when "001000" => --Addx
-					salida_alu <= entrada1 + entrada2 + carry;
+					salida_alu <= entrada1 + entrada2;
 				when "011000" => --Addxcc
-					salida_alu <= entrada1 + entrada2 + carry;
+					salida_alu <= entrada1 + entrada2;
 					
 				when "000100" =>		--caso sub
 					salida_alu <= entrada1 - entrada2;

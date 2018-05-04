@@ -1,1 +1,2 @@
 vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Alu.vhi -module Alu -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Alu.vhd 
+vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/Alu.vhi -module Alu -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Alu.vhd 

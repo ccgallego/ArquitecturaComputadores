@@ -29,12 +29,12 @@ begin
 				else
 					NZVC(2) <= '0';
 				end if;
-					NZVC(1) <= '0';
+					NZVC(1) <= '0';   -- no poseen carry ni overflow
 					NZVC(0) <= '0';
 			else
 	
 		--Para ADDcc y ADDxcc
-		if alu_op = "010001" or alu_op ="011000" then
+		if alu_op = "010000" or alu_op ="011000" then
 			NZVC(3) <= sal_alu(31);
 			if sal_alu = x"00000000" then
 				NZVC(2) <= '1';
