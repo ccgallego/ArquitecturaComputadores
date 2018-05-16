@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/test_WM_isim_beh.exe" -prj "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/test_WM_beh.prj" "work.test_WM" 

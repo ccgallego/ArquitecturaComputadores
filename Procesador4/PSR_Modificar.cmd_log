@@ -1,0 +1,4 @@
+vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/PSR_Modificar.vhi -module PSR_Modificar -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR_Modificar1.vhd 
+vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/PSR_Modificar.vhi -module PSR_Modificar -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work PSR_Modificar1.vhd 
+vhdtdtfi -lib work PSR_Modificar1.vhd -prj Procesador1 -o PSR_Modificar.spl -module PSR_Modificar -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PSR_Modificar.spl /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/PSR_Modificar.sym 

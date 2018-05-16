@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador1 -o /home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador1/Suma.vhi -module Suma -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Suma.vhd 
