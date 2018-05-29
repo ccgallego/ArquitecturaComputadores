@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/test_procesador_isim_beh.exe -prj /home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/test_procesador_beh.prj work.test_procesador 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/Win_Manager.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/Unidad_Control.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/SEU.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/reg_file.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/PSR_Mod.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/PSR.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/nPc.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/MUX0.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/MultiPlex.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/instructionMemory.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/DM.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/Alu.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/adder.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/Procesador_conectado.vhd" into library work
+Parsing VHDL file "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/test_procesador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98672 KB
+Fuse CPU Usage: 1230 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity Suma [suma_default]
+Compiling architecture behavioral of entity nPc [npc_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity WM [wm_default]
+Compiling architecture behavioral of entity MultiPlex [multiplex_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture behavioral of entity PSR_Mod [psr_mod_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity DM [dm_default]
+Compiling architecture behavioral of entity MUX0 [mux0_default]
+Compiling architecture behavioral of entity Procesador [procesador_default]
+Compiling architecture behavior of entity test_procesador
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable /home/gallego/Escritorio/ArquitecturaComputadores/Procesador5/test_procesador_isim_beh.exe
+Fuse Memory Usage: 676848 KB
+Fuse CPU Usage: 1480 ms
+GCC CPU Usage: 4600 ms

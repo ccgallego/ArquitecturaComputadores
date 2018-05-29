@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/test_procesador2_isim_beh.exe" -prj "/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/test_procesador2_beh.prj" "work.test_procesador2" 
+-intstyle "ise" -incremental -o "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador2/test_SEV_isim_beh.exe" -prj "/home/gallego/Escritorio/ArquitecturaComputadores/Procesador2/test_SEV_beh.prj" "work.test_SEV" 

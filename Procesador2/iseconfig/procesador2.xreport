@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-04-24T19:21:23</DateModified>
+  <DateModified>2018-05-28T22:40:06</DateModified>
   <ModuleName>procesador2</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/iseconfig/procesador2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador2/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/gallego/Escritorio/ArquitecturaComputadores/Procesador2/iseconfig/procesador2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/gallego/Escritorio/ArquitecturaComputadores/Procesador2/</ImplementationReportsDirectory>
   <DateInitialized>2018-04-17T01:12:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

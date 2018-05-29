@@ -11,13 +11,13 @@
          <ClosedNode>/procesador2 - Behavioral |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|procesador2.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Inst_PSR - PSR - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/PSR.vhd)</SelectedItem>
+         <SelectedItem>Inst_WM - WM - Behavioral (/home/gallego/Escritorio/ArquitecturaComputadores/Procesador4/WM.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000171000000020000000000000000000000000200000064ffffffff000000810000000300000002000001710000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000021a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000021a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Inst_PSR - PSR - Behavioral (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/PSR.vhd)</CurrentItem>
+      <CurrentItem>Inst_WM - WM - Behavioral (/home/gallego/Escritorio/ArquitecturaComputadores/Procesador4/WM.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -33,7 +33,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000127000000010000000100000000000000000000000064ffffffff000000810000000000000001000001270000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -68,6 +68,7 @@
          <ClosedNode>/tbSumar1 - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|tbSumar1.vhd</ClosedNode>
          <ClosedNode>/tbSumar1 - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|tbSumar1.vhd</ClosedNode>
          <ClosedNode>/tbSumar1 - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|tbSumar1.vhd</ClosedNode>
+         <ClosedNode>/test_DM - behavior |home|gallego|Escritorio|ArquitecturaComputadores|Procesador4|test_DM.vhd</ClosedNode>
          <ClosedNode>/test_IM - behavior C:|Users|utp|Desktop|ArquitecturaComputadores-master|Procesador2|test_IM.vhd</ClosedNode>
          <ClosedNode>/test_IM - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_IM.vhd</ClosedNode>
          <ClosedNode>/test_IM - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|test_IM.vhd</ClosedNode>
@@ -76,6 +77,7 @@
          <ClosedNode>/test_Multiplexor - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_Multiplexor.vhd</ClosedNode>
          <ClosedNode>/test_Multiplexor - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|test_Multiplexor.vhd</ClosedNode>
          <ClosedNode>/test_Multiplexor - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|test_Multiplexor.vhd</ClosedNode>
+         <ClosedNode>/test_PSR_Modificar - behavior |home|gallego|Escritorio|ArquitecturaComputadores|Procesador4|test_PSR_Modificar.vhd</ClosedNode>
          <ClosedNode>/test_PSR_Modificar - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|test_PSR_Modificar.vhd</ClosedNode>
          <ClosedNode>/test_RF - behavior C:|Users|utp|Desktop|ArquitecturaComputadores-master|Procesador2|test_RF.vhd</ClosedNode>
          <ClosedNode>/test_RF - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_RF.vhd</ClosedNode>
@@ -89,6 +91,7 @@
          <ClosedNode>/test_UC - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_UC.vhd</ClosedNode>
          <ClosedNode>/test_UC - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|test_UC.vhd</ClosedNode>
          <ClosedNode>/test_UC - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|test_UC.vhd</ClosedNode>
+         <ClosedNode>/test_WM - behavior |home|gallego|Escritorio|ArquitecturaComputadores|Procesador4|test_WM.vhd</ClosedNode>
          <ClosedNode>/test_WM - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|test_WM.vhd</ClosedNode>
          <ClosedNode>/test_alu - behavior C:|Users|utp|Desktop|ArquitecturaComputadores-master|Procesador2|test_alu.vhd</ClosedNode>
          <ClosedNode>/test_alu - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador1|test_alu.vhd</ClosedNode>
@@ -103,16 +106,17 @@
          <ClosedNode>/test_pc - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|test_pc.vhd</ClosedNode>
          <ClosedNode>/test_pc - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador3|test_pc.vhd</ClosedNode>
          <ClosedNode>/test_procesador2 - behavior C:|Users|utp|Desktop|ArquitecturaComputadores-master|Procesador2|test_procesador2.vhd</ClosedNode>
+         <ClosedNode>/test_procesador2 - behavior |home|gallego|Escritorio|ArquitecturaComputadores|Procesador4|test_procesador2.vhd/uut - procesador2 - Behavioral</ClosedNode>
          <ClosedNode>/test_procesador2 - behavior |home|gallego|Escritorio|ArquitecturaDeComputadores-master|Procesador2|test_procesador2.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>test_WM - behavior (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/test_WM.vhd)</SelectedItem>
+         <SelectedItem>test_WM - behavior (/home/gallego/Escritorio/ArquitecturaComputadores/Procesador4/test_WM.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000022e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000022e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>test_WM - behavior (/home/gallego/Escritorio/ArquitecturaDeComputadores-master/Procesador3/test_WM.vhd)</CurrentItem>
+      <CurrentItem>test_WM - behavior (/home/gallego/Escritorio/ArquitecturaComputadores/Procesador4/test_WM.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -120,13 +124,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000127000000010000000100000000000000000000000064ffffffff000000810000000000000001000001270000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -137,7 +141,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000127000000010000000100000000000000000000000064ffffffff000000810000000000000001000001270000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
@@ -153,7 +157,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
